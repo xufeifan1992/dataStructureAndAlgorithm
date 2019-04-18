@@ -4,20 +4,20 @@ package com.array;
  * Created by xufei
  * 2019/4/18
  */
-public class loopQueue<E> implements Queue<E> {
+public class LoopQueue<E> implements Queue<E> {
 
     private E[] data;
     private int front, tail;
     private int size;
 
-    public loopQueue(int capacity) {
+    public LoopQueue(int capacity) {
         data = (E[]) new Object[capacity + 1];
         front = 0;
         tail = 0;
         size = 0;
     }
 
-    public loopQueue() {
+    public LoopQueue() {
         this(10);
     }
 
@@ -39,10 +39,10 @@ public class loopQueue<E> implements Queue<E> {
     public void enqueue(E e) {
         if ((tail + 1) % data.length == front) {
             resize(getCapacity() * 2);
-            data[tail] = e;
-            tail = (tail + 1) % data.length;
-            size++;
         }
+        data[tail] = e;
+        tail = (tail + 1) % data.length;
+        size++;
     }
 
     @Override
