@@ -1,8 +1,8 @@
 package com.array;
 
-import com.Queue.ArrayQueue;
-import com.Queue.LoopQueue;
-import com.Queue.Queue;
+import com.queue.ArrayQueue;
+import com.queue.LoopQueue;
+import com.queue.Queue;
 
 import java.util.Random;
 

@@ -1,6 +1,4 @@
-package com.link;
-
-import com.queue.Queue;
+package com.queue;
 
 /**
  * Created by xufei

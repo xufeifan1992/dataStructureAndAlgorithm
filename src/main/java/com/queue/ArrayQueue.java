@@ -1,4 +1,4 @@
-package com.Queue;
+package com.queue;
 
 import com.array.Array;
 
@@ -50,7 +50,7 @@ public class ArrayQueue<E> implements Queue<E> {
     @Override
     public String toString(){
         StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("Queue：");
+        stringBuilder.append("queue：");
         stringBuilder.append("front [");
         for (int i = 0; i < array.getSize(); i++) {
             if(i != array.getSize() - 1){
