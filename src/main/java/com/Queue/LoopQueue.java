@@ -1,7 +1,5 @@
 package com.Queue;
 
-import com.array.Queue;
-
 /**
  * Created by xufei
  * 2019/4/18

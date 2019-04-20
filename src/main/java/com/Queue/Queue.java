@@ -1,4 +1,4 @@
-package com.array;
+package com.Queue;
 
 /**
  * Created by xufei
