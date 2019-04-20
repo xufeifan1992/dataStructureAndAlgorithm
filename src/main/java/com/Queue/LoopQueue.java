@@ -1,4 +1,6 @@
-package com.array;
+package com.Queue;
+
+import com.array.Queue;
 
 /**
  * Created by xufei
