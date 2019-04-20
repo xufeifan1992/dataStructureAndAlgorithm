@@ -1,4 +1,4 @@
-package com.array;
+package com.exercises;
 
 import org.junit.Test;
 
