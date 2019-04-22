@@ -1,5 +1,6 @@
 package com.xuff;
 
+import com.tree.BSTree;
 import org.junit.Test;
 
 /**
@@ -92,7 +93,7 @@ public class SingleLinkedList {
 
     @Test
     public void testLinked() {
-        SingleLinkedList singleLinkedList = new SingleLinkedList();
+        /*SingleLinkedList singleLinkedList = new SingleLinkedList();
         singleLinkedList.addHead("1");
         singleLinkedList.addHead("2");
         singleLinkedList.addHead("3");
@@ -101,7 +102,11 @@ public class SingleLinkedList {
 
         //singleLinkedList.delete("3");
 
-        singleLinkedList.findHead("3");
+        singleLinkedList.findHead("3");*/
+        BSTree<Integer> bsTree = new BSTree();
+        bsTree.add(1);
+        bsTree.add(2);
+        bsTree.add(3);
 
 
     }
