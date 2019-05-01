@@ -1,7 +1,5 @@
 package com.link;
 
-import sun.reflect.generics.scope.DummyScope;
-
 /**
  * Created by xufei
  * 2019/4/18
